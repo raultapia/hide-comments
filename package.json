@@ -1,10 +1,9 @@
 {
   "name": "hide-comments",
   "main": "./lib/hide-comments",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hide all comments in your code",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "hide-comments:toggle"
   },
@@ -13,8 +12,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "configSchema": {
     "remove_empty_lines": {
       "type": "boolean",
