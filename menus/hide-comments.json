@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Hide/Restore All Comments",
+        "command": "hide-comments:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Hide Comments",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "hide-comments:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

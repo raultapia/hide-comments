@@ -1,0 +1,25 @@
+{
+  "name": "hide-comments",
+  "main": "./lib/hide-comments",
+  "version": "1.0.0",
+  "description": "Hide all comments in your code",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "hide-comments:toggle"
+  },
+  "repository": "https://github.com/raultapia/hide-comments",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "remove_empty_lines": {
+      "type": "boolean",
+      "default": true,
+      "description": "Remove empty lines when hiding comments"
+    }
+  }
+}
