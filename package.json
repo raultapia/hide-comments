@@ -1,7 +1,7 @@
 {
   "name": "hide-comments",
   "main": "./lib/hide-comments",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Hide all comments in your code",
   "keywords": [],
   "activationCommands": {
